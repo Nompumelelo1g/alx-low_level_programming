@@ -9,21 +9,22 @@
  */
 int print_sign(int n)
 {
-int result;
-if (n > 0)
+	int result;
+	if (n > 0)
 {
-_putchar('+');
-result = 1;
+	_putchar('+');
+	result = 1;
 }
-if (n == 0)
+	if (n == 0)
 {
-_putchar('0');
-result = 0;
+	_putchar('0');
+	result = 0;
 }
-if (n < 0)
+	if (n < 0)
 {
-_putchar('-');
-result = -1;
+	_putchar('-');
+	result = -1;
 }
-return (result);
+	return (0);
+{
 }
